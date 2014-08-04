@@ -1,5 +1,6 @@
-# Jekyll Incorporated
-Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)
+# SITW blog
+
+SITW official blog
 
 ## Installation & Usage
     bundle install
@@ -30,34 +31,6 @@ Run rake task. **NOTE: It will deploy the generated site to _gh-pages_ branch ov
 rake site:publish
 ```
 
-## Usage examples
-
-* Adroll Engineering http://tech.adroll.com/
-* Brace.io blog http://blog.brace.io/
-* Spark.io blog http://blog.spark.io/
-* Department of Better Technology http://blog.dobt.co/
-
-## Authors
-
-Originally build for [sendtoinc.com](https://sendtoinc.com), your workspace for sharing and organizing knowledge
-
-**Karri Saarinen**
-
-+ [http://twitter.com/karrisaarinen](http://twitter.com/karrisaarinen)
-+ [http://github.com/ksaa](http://github.com/ksaa)
-
-**Jori Lallo**
-
-+ [http://twitter.com/jorilallo](http://twitter.com/jorilallo)
-+ [http://github.com/jorde](http://github.com/jorilallo)
-
-## Todo:
-
-+ Documentation
-+ Less config files
-+ Better deploy scripts
-
 ## Copyright and license
 
-Copyright 2013 Kippt Inc. under [The MIT License ](LICENSE)
-
+original from https://github.com/kippt/jekyll-incorporated/ under [The MIT License ](LICENSE)

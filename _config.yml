@@ -1,21 +1,21 @@
 inc:
   # Blog Information
-  title:        "Jekyll Incorporated"
-  subtitle:     "Modern Jekyll based blog for companies"
-  cover_image:  blog-cover.jpg
-  logo:         logo.png
+  title:        "SITW blog"
+  subtitle:     "We make campus AWESOME!!"
+  cover_image:  tree-cover.jpg
+  logo:         sitw-logo.png
   
   # Company information
-  company:      Incorporated
-  url:          http://sendtoinc.com/
-  facebook:     sendtoinc
-  twitter:      sendtoinc
-  gplus:        '101183822199340201470'
-  about_link:   https://sendtoinc.com/about/
+  company:      SITW
+  url:          http://sitw.tw/
+  facebook:     sitwgroup
+  # twitter:      sendtoinc
+  # gplus:        '101183822199340201470'
+  about_link:   https://sitw.tw/
   
   # Product Information
-  product_link: http://incorporated.sendtoinc.com/
-  tagline:      "Get a modern blog for your company"
+  product_link: http://sitw.tw/#project
+  tagline:      "We make campus AWESOME!!"
   
   # Comments
   disqus:
@@ -24,15 +24,15 @@ inc:
   
   # Sharing settings
   sharing:
-    twitter:    false
-    facebook:   false
-    gplus:      false
+    twitter:    true
+    facebook:   true
+    gplus:      true
     hn:         false
     
   
  # Analytics     
   analytics:
-    google: false # Add tracking code in _includes/_google-analytics.html
+    google: UA-42906035-1 # Add tracking code in _includes/_google-analytics.html
       
       
   # Google Fonts
@@ -41,7 +41,7 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://incorporated.sendtoinc.com
+url:         http://sitw.tw
 source:      .
 destination: ./_site
 plugins:     ./_plugins
@@ -54,7 +54,7 @@ timezone:    nil
 future:      false
 show_drafts: nil
 limit_posts: 0
-pygments:    true
+highlighter:    pygments
 
 relative_permalinks: true
 
@@ -62,7 +62,7 @@ permalink:     pretty
 paginate_path: 'page:num'
 paginate: 10
 
-markdown:      maruku
+markdown:      kramdown
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
 
@@ -74,12 +74,12 @@ port:        4000
 baseurl:     /
 lsi:         false
 
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
+# maruku:
+#   use_tex:    false
+#   use_divs:   false
+#   png_engine: blahtex
+#   png_dir:    images/latex
+#   png_url:    /images/latex
 
 rdiscount:
   extensions: []
