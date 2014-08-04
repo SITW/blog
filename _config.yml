@@ -32,7 +32,7 @@ inc:
   
  # Analytics     
   analytics:
-    google: UA-42906035-1 # Add tracking code in _includes/_google-analytics.html
+    google: "UA-42906035-1" # Add tracking code in _includes/_google-analytics.html
       
       
   # Google Fonts
