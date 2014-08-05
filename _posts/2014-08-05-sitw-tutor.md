@@ -10,7 +10,7 @@ excerpt: "找家教也可以無負擔"
 author:
   name: 楊博安
   facebook: poan.yang
-  bio:
+  bio: SITW 開發員
   image: yangpoan.jpg
 ---
 
