@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: [家教網] SITW's Tutor!
+title: "[家教網] SITW's Tutor!"
 subtitle: "為什麼創立家教網"
 cover_image: blog-tutor-cover.jpg
 
